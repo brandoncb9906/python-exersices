@@ -19,4 +19,4 @@ def palindrome(num):
             num_parcial //= 10
             return palindrome(num_parcial)
 
-print(palindrome(1143211))
+print(palindrome(12321))
